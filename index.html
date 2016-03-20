@@ -1,7 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <html>
 <head>
-<head>
+<title>Turing Test</title>
+</head>
+<body>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1137" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -53,4 +57,21 @@
 </div>
         <div id="slide5" class="step slide" data-x="500" data-y="-4300">
 <h4>Conclusion. </h4>
+  </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="https://impress.github.io/impress.js/js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+
+</body>
+
+</html>
+
 
